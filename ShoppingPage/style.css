@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-navigation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+}
+
+.navigation {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.main-shopping{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopping{
+    width: 90%;
+}
+.left {
+    width: 30%;
+}
+
+.center {
+    width: 40%;
+}
+
+.right {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    font-size: 15px;
+    color: #FFFFFF;
+    top: -10px;
+    left: 107px;
+    background-color: rgb(151, 187, 232);
+    border-radius: 100%;
+    border: 1px solid rgb(247, 168, 234);
+}
+
+.logo {
+    width: 100px;
+}
+
+.nav-btn {
+    background: linear-gradient(to bottom right, #e2f4a7, #71b1e6);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+
+.nav-btn:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(216, 240, 156, 0.5), .125rem .125rem 1rem rgba(164, 180, 123, 0.5);
+}
+
+.nav-btn:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(194, 239, 71, 0.5), .125rem .125rem 1rem rgba(235, 250, 140, 0.5);
+}
+
+.fa-cart-shopping {
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom right, #e4ee8d, #71b1e6);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+.fa-cart-shopping:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(203, 239, 71, 0.5), .125rem .125rem 1rem rgba(240, 99, 200, 0.5);
+}
+
+.fa-cart-shopping:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(219, 239, 71, 0.5), .125rem .125rem 1rem rgba(250, 140, 244, 0.5);
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+input[type="text"] {
+    height: 40px;
+  
+    padding: 0 10px;
+ 
+    border-radius: 20px;
+ 
+    border: 1px solid #ccc;
+    
+    margin-right: 10px;
+  
+    transition: all 0.3s;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#viewImage {
+    max-width: 80%; 
+    height: auto;    
+}
+
+.search-container {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+}
+
+#searchInput {
+    width: 250px;
+    padding: 12px 15px;
+    border: 2px solid #ddd; 
+    border-radius: 25px; 
+    font-size: 16px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#searchInput:focus {
+    border-color: #44946d; 
+    box-shadow: 0 0 5px rgba(62, 145, 102, 0.5); 
+    outline: none; 
+}
+
+#searchButton {
+    padding: 12px 20px; 
+    background-color: #50b17f; 
+    color: white; 
+    border: none;
+    border-radius: 25px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+#searchButton:hover {
+    background-color: #428d43; 
+    transform: translateY(-2px); 
+}
+
+#searchButton:active {
+    background-color: #50a96b; 
+    transform: translateY(0); 
+}
+
+
